@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.boxback{
+    width: 100%;
+    height: 380px;
+    background: black;
+    color: white;
+}
+.boxback h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+    width: 100%;
+    height: 1000px;
+}
+.div{
+    width: 150px;
+    height: 35px;
+    color: white;
+    background: red;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    transform: translateY(50px) translateX(30px);
+}
+.div2{
+    width: 600px;
+    height: 35px;
+    margin: auto;
+    border-radius: 9px;
+    border: 1.5px solid black;
+    overflow: hidden;
+    transform: translateY(15px);
+}
+.div2 select{
+    width: 35px;
+    height: 100%;
+    border: none;
+    background: rgb(245, 245, 245);
+    transform: translateY(-11px);
+}
+.div2 input{
+    width: 500px;
+    height: 100%;
+    border: none;
+    padding-left: 15px;
+    transform: translateY(-11px);
+}
+.div2 input:hover{
+    cursor: pointer;
+}
+.div2 img{
+    width: 30px;
+    height: 100%;
+    margin-left: 20px;
+}
+.nav{
+    width: 234px;
+    height: 35px;
+    transform: translateX(1025px) translateY(-20px);
+    display: flex;
+}
+.img1{
+    width: 40px;
+    height: 40px;
+}
+.nav p{
+    font-size: 11px;
+    transform: translateY(12px);
+}
+.nav p:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.img2{
+    width: 80px;
+    height: 35px;
+}
+.boxx{
+    width: 900px;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: 3s;
+}
+.boxx p{
+    font-size: 13px;
+    height: 35px;
+    transform: translateX(360px) translateY(10px);
+}
+.boxx p:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.boxx h4:hover{
+    color: orange;
+    cursor: pointer;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: rgb(245, 245, 245);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: 3s;
+}
+.navbar h4:hover{
+    color: dodgerblue;
+}
+.banner{
+    width: 100%;
+    height: 550px;
+    background: url("./banner.jpg") no-repeat center/cover;
+}
+.banner__content{
+    width: 300px;
+    height: 200px;
+    border: 1px solid none;
+    transform: translateX(60px) translateY(240px);
+}
+.banner__content h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.banner__content h1{
+    text-align: center;
+    color: white;
+    font-size: 42px;
+}
+.button{
+    width: 100px;
+    height: 38px;
+    border-radius: 3px;
+    border: none;
+}
+.button:hover{
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.quti{
+    width: 100%;
+    height: 100px;
+    background: rgb(245, 245, 245);
+    padding: 30px 7%;
+}
+.quti2{
+    width: 100%;
+    height: 180px;
+}
+.small__box1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 80px;
+    padding: 0 9%;
+}
+.small__box1 img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    transition: 1s;
+}
+.small__box1 img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.small__box2{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    gap: 75px;
+    padding: 0 9%;
+}
+.small__box2 h4:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.contects{
+    width: 100%;
+    height: 800px;
+}
+.divv{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 20px;
+    background: rgb(245, 245, 245);
+}
+.big__contects{
+    width: 300px;
+    height: 420px;
+    background: white;
+    border-radius: 15px;
+    margin: 30px 5%;
+    overflow: hidden;  
+    transition: 2s;
+}
+.big__contects:hover{
+    transform: scale(1.1);
+}
+.big__contects h1{
+    font-size: 30px;
+    padding: 5px 3%;
+}
+.big__contects p{
+    font-size: 15px;
+    padding: 5px 3%;
+    color: grey;
+}
+.big__contects img{
+    width: 325px;
+    height: 200px;
+}
+.big__contects img:hover{
+    cursor: pointer;
+}
+.btn5{
+    width: 100px;
+    height: 30px;
+    margin: 50px 3%;
+    border-radius: 2px;
+    border: 1.5px solid grey;
+    background: white;
+}
+.btn5:hover{
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.btnn{
+    width: 100px;
+    height: 30px;
+    margin: 100px 3%;
+    border-radius: 2px;
+    border: 1.5px solid grey;
+    background: white;
+}
+.btnn:hover{
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.btnn5{
+    width: 100px;
+    height: 30px;
+    margin: 80px 3%;
+    border-radius: 2px;
+    border: 1.5px solid grey;
+    background: white;
+}
+.btnn5:hover{
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.background{
+    width: 100%;
+    height: 350px;
+    background: rgb(245, 245, 245);
+}
+.big__contects4{
+    width: 1140px;
+    height: 250px;
+    border-radius: 15px;
+    background: white;
+    margin: 0 5%;
+    display: flex;
+    overflow: hidden;
+    transition: 2s; 
+}
+.big__contects4:hover{
+    transform: scale(1.1);
+}
+.big__contects4 img{
+    width: 570px;
+    height: 250px;
+}
+.big__contects4 img:hover{
+    cursor: pointer;
+}
+.big__contects4 h1{
+    font-size: 30px;
+    padding: 35px 9%;
+}
+.big__contects4 p{
+    font-size: 15px;
+    padding: 0px 9%;
+}
+.btnnn5{
+    width: 150px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1.5px solid grey;
+    background: white;
+    margin: 35px 9%;
+}
+.btnnn5:hover{
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.xbox{
+    width: 100%;
+    height: 650px;
+    padding: 50px 10%;
+    background: rgb(245, 245, 245);
+}
+.imgs{
+    width: 100%;
+    height: 470px;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    padding: 0 2%;
+    
+}
+.noclass1,
+.noclass2,
+.noclass3{
+    background: white;
+    transition: 2s;
+}
+.noclass1:hover,
+.noclass2:hover,
+.noclass3:hover{
+    transform: scale(1.1);
+}
+.noclass1,
+.noclass2,
+.noclass3{
+    width: 300px;
+    height: 470px;
+    border-radius: 15px;
+    overflow: hidden; 
+}
+.noclass1 img{
+    width: 100%;
+    height: 220px;
+}
+.noclass2 img{
+    width: 100%;
+    height: 220px;
+}
+.noclass3 img{
+    width: 100%;
+    height: 220px;
+}
+.noclass1 h1,
+.noclass2 h1,
+.noclass3 h1{
+    padding: 10px 3%;
+}
+.noclass1 p,
+.noclass2 p,
+.noclass3 p{
+    color: grey;
+    padding: 0 3%;
+}
+.noclass__btn1{
+    width: 100px;
+    height: 35px;
+    margin: 120px 3%;
+    border-radius: 2px;
+    border: 1.5px solid grey;
+    background: white;
+}
+.noclass__btn1:hover{
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.noclass__btn2{
+    width: 100px;
+    height: 35px;
+    margin: 100px 3%;
+    border-radius: 2px;
+    border: 1.5px solid grey;
+    background: white;
+}
+.noclass__btn2:hover{
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+.xboxx{
+    width: 100%;
+    height: 500px;
+    background: dodgerblue;
+    overflow: hidden;
+}
+.animation{
+    width: 100%;
+    height: 100%;
+    animation: uch 15s linear infinite;
+}
+@keyframes uch{
+    to{
+        transform: translate(100%, -300px);
+    }
+}
+.xboxx1{
+    width: 250px;
+    height: 120px;
+    background: gold;
+    border-radius: 50px;
+    border: none;
+    transform: translate(200px, 200px);
+    overflow: hidden;
+}
+.xboxx2{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    transform: translate(250px, 225px);
+    overflow: hidden;
+}
+.ears{
+    width: 80px;
+    height: 5px;
+    background: black;
+    border: 1px solid black;
+    transform: translate(410px, 200px) rotate(-45deg);
+}
+.ears2{
+    width: 80px;
+    height: 5px;
+    background: black;
+    border: 1px solid black;
+    transform: translate(0px, -20px) rotate(160deg);
+}
+.xboxx3{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    border: 0.1px solid grey;
+    transform: translate(300px, 1.5px);
+}
+.xboxx4{
+    width: 60px;
+    height: 300px;
+    background: black;
+    border: 5px solid gold;
+    transform: translate(-10px, -30px);
+}
+.xboxx5{
+    width: 90px;
+    height: 300px;
+    border: 34px solid black;
+    transform: translate(70px, -30px);
+}
+.eyes{
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    border: 1px solid black;
+    transform: translate(90px, 45px);
+}
+.xboxxx{
+   width: 100%;
+   height: 300px;
+   background: green;
+}
+.smile{
+    width: 900px;
+    height: 650px;
+    background: black;
+    margin: auto;
+    overflow: hidden;
+}
+.smile1{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 30px solid white;
+    transition: 0.0150s;
+    transform: translate(100px, 30px);
+}
+.smile1:hover{
+    height: 0;
+}
+.smile2{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 30px solid white;
+    transform: translate(400px, -30px);
+}
+.black{
+    width: 90px;
+    height: 90px;
+    background: white;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid white;
+    transform: translateY(55px);
+}
+.smile3{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 30px solid white;
+    transform: translate(-250px, 240px);
+}
+.smile4{
+    width: 600px;
+    height: 190px;
+    background: black;
+    border: 1px solid black;
+    transform: translate(-300px, -30px);
+}

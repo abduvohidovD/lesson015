@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    transform: translateY(20px);
+
+    background: rgb(0, 150, 0);
+    
+    background: rgba(0, 150, 0, 0.50);
+}
+.rect{
+    width: 100%;
+    height: 400px;
+    transform: translateY(-20px);
+
+    background: #f09;
+    background: #ad5599;
+
+    background: #0000ff98;
+    background: #00f9;
+}
